@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/javaIcon.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/pythonIcon.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/gitIcon.png"
+  },
+  {
+    "title": "Ubuntu CLI",
+    "imageSrc": "skills/ubuntuIcon.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  }
+]

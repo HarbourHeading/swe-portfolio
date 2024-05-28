@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Programming Essentials in Python",
+    "organisation": "PCAP",
+    "startDate": "Jan, 2024",
+    "endDate": "Mar, 2024",
+    "experiences": ["Python best-practices", "Object-Oriented Programming"],
+    "imageSrc": "history/pythonInstitute.png"
+  },
+  {
+    "role": "CCNA: Enterprise Networking, Security, and Automation",
+    "organisation": "Cisco",
+    "startDate": "Aug, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": ["OSPF, ACLs, NAT, Network Architecture", "Virtualization, QoS, Automation"],
+    "imageSrc": "history/cisco.png"
+  },
+  {
+    "role": "OS & IT: Linux 1",
+    "organisation": "NDG",
+    "startDate": "June, 2023",
+    "endDate": "Aug, 2023",
+    "experiences": ["Linux Architecture, GNU, Unix", "Package management, CLI commands"],
+    "imageSrc": "history/ndg.jpg"
+  }
+]
