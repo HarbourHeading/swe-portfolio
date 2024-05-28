@@ -1,6 +1,6 @@
-import {useState} from "react";
 import styles from "./Navbar.module.css";
 import {getImageUrl} from "../../utils";
+import {useState} from "react";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ export const Navbar = () => {
                 Portfolio
             </a>
             <div className={styles.menu}>
-                <img
+                <img /* Mobile menu. No display on 830px+ screens. */
                     className={styles.menuBtn}
                     src={
                         menuOpen
