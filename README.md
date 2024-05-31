@@ -5,7 +5,7 @@ as well as links to my other projects, contact information and resume.
 
 ## View
 
-Go to [this]() website to view my portfolio.
+Go to [this](https://liamcodes.dev) website to view my portfolio.
 
 ## Contributing
 
