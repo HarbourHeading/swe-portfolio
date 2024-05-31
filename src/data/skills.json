@@ -1,19 +1,23 @@
 [
   {
     "title": "Java",
-    "imageSrc": "skills/javaIcon.png"
+    "imageSrc": "skills/java.png"
   },
   {
     "title": "Python",
-    "imageSrc": "skills/pythonIcon.png"
+    "imageSrc": "skills/python.png"
   },
   {
     "title": "Git",
-    "imageSrc": "skills/gitIcon.png"
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
   },
   {
     "title": "Ubuntu CLI",
-    "imageSrc": "skills/ubuntuIcon.png"
+    "imageSrc": "skills/ubuntu.png"
   },
   {
     "title": "HTML",
