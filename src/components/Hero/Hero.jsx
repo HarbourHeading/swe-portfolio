@@ -8,9 +8,8 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I&apos;m Liam.</h1>
                 <p className={styles.description}>
-                    I&apos;m a Software Engineer with 4 years of experience in the tech field, mainly using Java and
+                    I am an ICT graduate and Software Engineer with four years of experience in the tech industry, primarily working with Java and
                     Python.
-                    Reach out if you&apos;d like to learn more!
                 </p>
                 <div className={styles.sub}>
                     <a href="mailto:liam.a.ek05@gmail.com" className={styles.contactBtn}>
@@ -18,7 +17,7 @@ export const Hero = () => {
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/HarbourHeading">
                         <img
-                            src={getImageUrl("contact/githubIcon.png")}
+                            src={getImageUrl("contact/github.png")}
                             alt="github icon"
                             className={styles.subIcons}
                         />
@@ -26,7 +25,7 @@ export const Hero = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-ek">
                         <img
 
-                            src={getImageUrl("contact/linkedinIcon.png")}
+                            src={getImageUrl("contact/linkedin.png")}
                             alt="linkedin icon"
                             className={styles.subIcons}
                         />
@@ -34,7 +33,7 @@ export const Hero = () => {
                 </div>
             </div>
             <img
-                src={getImageUrl("hero/heroImage.png")}
+                src={getImageUrl("hero/portrait.png")}
                 alt="Portrait of me"
                 className={styles.heroImg}
             />
