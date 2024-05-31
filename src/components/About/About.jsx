@@ -8,30 +8,31 @@ export const About = () => {
             <div className={styles.content}>
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="UI icon"/>
+                        <img src={getImageUrl("about/ui.png")} alt="UI icon"/>
                         <div className={styles.aboutItemText}>
                             <h3>Software Developer</h3>
                             <p>
                                 2 years of experience developing secure, effective and maintainable software
                                 applications.
-                                Proficient in using tools like Git to track progress and manage code efficiently.
+                                Proficient in using Git for progress tracking and efficient code management.
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="Server icon"/>
+                        <img src={getImageUrl("about/server.png")} alt="Server icon"/>
                         <div className={styles.aboutItemText}>
                             <h3>System Administrator</h3>
                             <p>
                                 Managed and maintained a game VPS on Linux systems, serving 500 members at it&apos;s
                                 peak.
                                 Integrated user feedback and implemented new technologies to enhance performance by 40%
-                                from factory settings. Performed over a span of 3 years.
+                                from factory settings.
+                                Performed over a span of 3 years.
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon"/>
+                        <img src={getImageUrl("about/cursor.png")} alt="Cursor icon"/>
                         <div className={styles.aboutItemText}>
                             <h3>Frontend Developer</h3>
                             <p>
