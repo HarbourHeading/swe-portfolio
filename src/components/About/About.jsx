@@ -23,9 +23,8 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>System Administrator</h3>
                             <p>
-                                Managed and maintained a game VPS on Linux systems, serving 500 members at it&apos;s
-                                peak.
-                                Integrated user feedback and implemented new technologies to enhance performance by 40%
+                                Managed and maintained a game VPS on Linux systems, serving up to 500 members.
+                                Integrated user feedback and implemented new technologies, improving performance by 40%
                                 from factory settings.
                                 Performed over a span of 3 years.
                             </p>

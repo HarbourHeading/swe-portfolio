@@ -8,7 +8,8 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I&apos;m Liam.</h1>
                 <p className={styles.description}>
-                    I am an ICT graduate and Software Engineer with four years of experience in the tech industry, primarily working with Java and
+                    I am an ICT graduate and Software Engineer with four years of experience in the tech industry,
+                    primarily working with Java and
                     Python.
                 </p>
                 <div className={styles.sub}>
@@ -32,10 +33,9 @@ export const Hero = () => {
                     </a>
                 </div>
             </div>
-            <img
-                src={getImageUrl("hero/portrait.png")}
-                alt="Portrait of me"
-                className={styles.heroImg}
+            <img src={getImageUrl("hero/portrait.png")}
+                 alt="Portrait of me"
+                 className={styles.heroImg}
             />
             <div className={styles.topBlur}/>
             <div className={styles.bottomBlur}/>
