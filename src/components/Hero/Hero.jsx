@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I&apos;m Liam.</h1>
                 <p className={styles.description}>
-                    I am an ICT graduate and Software Engineer with four years of experience in the tech industry,
+                    I am an ICT graduate and Software Engineer with five years of experience in the tech industry,
                     primarily working with Java and
                     Python.
                 </p>
@@ -33,7 +33,7 @@ export const Hero = () => {
                     </a>
                 </div>
             </div>
-            <img src={getImageUrl("hero/portrait.png")}
+            <img src={getImageUrl("hero/portrait.jpg")}
                  alt="Portrait of me"
                  className={styles.heroImg}
             />
