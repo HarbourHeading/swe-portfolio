@@ -8,7 +8,7 @@ as well as links to my other projects, contact information and resume.
 Go to [this](https://liamcodes.dev) website to view my portfolio.
 
 
-Find out the website's [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-liamcodes-dev/8rqsmjg5pd?form_factor=desktop)
+Find out the website's [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-liamcodes-dev/5eeg7kl9pl?form_factor=desktop)
 
 ## Contributing
 
