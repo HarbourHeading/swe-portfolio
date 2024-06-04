@@ -1,21 +1,21 @@
 [
   {
     "title": "Quick-edit",
-    "imageSrc": "projects/quickEdit.png",
+    "imageSrc": "projects/quickEdit.jpg",
     "description": "Developed a Python-based text editor as a Notepad alternative.",
     "skills": ["Python", "Tkinter", "Git"],
     "source": "https://github.com/HarbourHeading/quick-edit"
   },
   {
     "title": "Catch-it",
-    "imageSrc": "projects/catchIt.png",
+    "imageSrc": "projects/catchIt.jpg",
     "description": "Created a modern version of Catch, where players score points by catching falling objects.",
     "skills": ["Java", "Maven", "Javax Swing", "Git", "Threads"],
     "source": "https://github.com/HarbourHeading/catch-it"
   },
   {
     "title": "Portfolio",
-    "imageSrc": "projects/portfolio.png",
+    "imageSrc": "projects/portfolio.jpg",
     "description": "Portfolio showcasing my tech skills, projects, and contact information.",
     "skills": ["Vite","React", "JS", "CSS", "HTML", "Docker"],
     "source": "https://github.com/HarbourHeading/swe-portfolio"
