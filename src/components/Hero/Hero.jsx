@@ -16,19 +16,16 @@ export const Hero = () => {
                     <a href="mailto:liam.a.ek05@gmail.com" className={styles.contactBtn}>
                         Contact Me
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/HarbourHeading">
-                        <img
-                            src={getImageUrl("contact/github.png")}
-                            alt="github icon"
-                            className={styles.subIcons}
+                    <a aria-label="Link to my github" target="_blank" rel="noopener noreferrer" href="https://www.github.com/HarbourHeading">
+                        <img src={getImageUrl("contact/github.png")}
+                             alt="github icon"
+                             className={styles.subIcons}
                         />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-ek">
-                        <img
-
-                            src={getImageUrl("contact/linkedin.png")}
-                            alt="linkedin icon"
-                            className={styles.subIcons}
+                    <a aria-label="Link to my linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-ek">
+                        <img src={getImageUrl("contact/linkedin.png")}
+                             alt="linkedin icon"
+                             className={styles.subIcons}
                         />
                     </a>
                 </div>
