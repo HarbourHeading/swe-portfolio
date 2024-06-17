@@ -34,6 +34,9 @@
 
 .links a {
     text-decoration: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
 
     p {
         color: var(--color-text);
@@ -41,13 +44,7 @@
         font-weight: 400;
         letter-spacing: 2px;
     }
-}
 
-.link {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    text-decoration: none;
 }
 
 
