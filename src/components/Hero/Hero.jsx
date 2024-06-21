@@ -13,7 +13,7 @@ export const Hero = () => {
                     Python.
                 </p>
                 <div className={styles.sub}>
-                    <a href="mailto:liam.a.ek05@gmail.com" className={styles.contactBtn}>
+                    <a href="mailto:liam.e.swe@gmail.com" className={styles.contactBtn}>
                         Contact Me
                     </a>
                     <a aria-label="Link to my github" target="_blank" rel="noopener noreferrer" href="https://www.github.com/HarbourHeading">
@@ -22,7 +22,7 @@ export const Hero = () => {
                              className={styles.subIcons}
                         />
                     </a>
-                    <a aria-label="Link to my linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-ek">
+                    <a aria-label="Link to my linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-swe-e">
                         <img src={getImageUrl("contact/linkedin.png")}
                              alt="linkedin icon"
                              className={styles.subIcons}

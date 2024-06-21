@@ -10,9 +10,9 @@ export const Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <a href="mailto:liam.a.ek05@gmail.com">
+                    <a href="mailto:liam.e.swe@gmail.com">
                         <img src={getImageUrl("contact/email.png")} alt="Email icon"/>
-                        <p>liam.a.ek05@gmail.com</p>
+                        <p>liam.e.swe@gmail.com</p>
                     </a>
                 </li>
 
@@ -20,9 +20,9 @@ export const Contact = () => {
                     <a target="_blank"
                        rel="noopener noreferrer"
                        aria-label="Link to my linkedin"
-                       href="https://www.linkedin.com/in/Liam-ek">
+                       href="https://www.linkedin.com/in/Liam-swe-e">
                         <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon"/>
-                        <p>https://linkedin.com/in/liam-ek</p>
+                        <p>https://linkedin.com/in/liam-swe-e</p>
                     </a>
                 </li>
 
