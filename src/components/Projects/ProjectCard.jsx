@@ -1,18 +1,15 @@
 import styles from "./ProjectCard.module.css";
 import {getImageUrl} from "../../utils";
+import PropTypes from "prop-types";
 
-/* Fix prop-types */
-
-export const ProjectCard = ({
-                                project: {title, imageSrc, description, skills, source},
-                            }) => {
+export const ProjectCard = ({ project: {title, imageSrc, description, skills, source}, }) => {
 
 
     return (
         <div className={styles.container}>
             <img
                 src={getImageUrl(imageSrc)}
-                alt={`Image of ${title}`}
+                alt={title}
                 className={styles.image}
             />
             <h3 className={styles.title}>{title}</h3>
@@ -33,4 +30,14 @@ export const ProjectCard = ({
             </div>
         </div>
     );
+};
+
+ProjectCard.propTypes = {
+    project: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        imageSrc: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+        source: PropTypes.string.isRequired,
+    }).isRequired,
 };
