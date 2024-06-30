@@ -22,7 +22,7 @@ export const Hero = () => {
                              className={styles.subIcons}
                         />
                     </a>
-                    <a aria-label="Link to my linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-swe-e">
+                    <a aria-label="Link to my linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-e-swe">
                         <img src={getImageUrl("contact/linkedin.png")}
                              alt="linkedin icon"
                              className={styles.subIcons}
