@@ -20,9 +20,9 @@ export const Contact = () => {
                     <a target="_blank"
                        rel="noopener noreferrer"
                        aria-label="Link to my linkedin"
-                       href="https://www.linkedin.com/in/Liam-swe-e">
+                       href="https://www.linkedin.com/in/Liam-e-swe">
                         <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon"/>
-                        <p>https://linkedin.com/in/liam-swe-e</p>
+                        <p>https://linkedin.com/in/liam-e-swe</p>
                     </a>
                 </li>
 
