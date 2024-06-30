@@ -11,20 +11,19 @@ export const Navbar = () => {
                 Portfolio
             </a>
             <div className={styles.menu}>
-                <img /* Mobile menu. No display on 830px+ screens. */
-                    className={styles.menuBtn}
-                    src={
-                        menuOpen
-                            ? getImageUrl("navbar/close.png")
-                            : getImageUrl("navbar/menu.png")
-                    }
-                    alt="menu-button"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                />
-                <ul
-                    className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                    onClick={() => setMenuOpen(false)}
-                >
+                <button className={styles.mobileMenuButton} onClick={() => setMenuOpen(!menuOpen)}>
+                    <img /* Mobile menu. Not displayed on 830px+ screens. */
+                        src={
+                            menuOpen
+                                ? getImageUrl("navbar/close.png")
+                                : getImageUrl("navbar/menu.png")
+                        }
+                        alt="mobile-menu-button"
+                    >
+                    </img>
+                </button>
+                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+                        <button className={styles.mobileDropdown} onClick={() => setMenuOpen(false)}/>
                     <li>
                         <a href="#about">About</a>
                     </li>
