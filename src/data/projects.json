@@ -17,7 +17,7 @@
     "title": "Portfolio",
     "imageSrc": "projects/portfolio.jpg",
     "description": "Portfolio showcasing my tech skills, projects, and contact information.",
-    "skills": ["Vite","React", "JS", "CSS", "HTML", "Docker"],
+    "skills": ["Vite", "React", "JS", "CSS", "HTML", "Docker"],
     "source": "https://github.com/HarbourHeading/swe-portfolio"
   }
 ]
