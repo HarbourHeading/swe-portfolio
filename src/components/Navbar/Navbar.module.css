@@ -18,7 +18,15 @@
 }
 
 
-.menuBtn {
+.mobileMenuButton {
+    display: none;
+
+    img {
+        display: none;
+    }
+}
+
+.mobileDropdown {
     display: none;
 }
 
@@ -58,9 +66,13 @@
         z-index: 3;
     }
 
-    .menuBtn {
+    .mobileMenuButton {
         display: block;
         cursor: pointer;
+
+        img {
+            display: block;
+        }
     }
 
     .menuItems {
