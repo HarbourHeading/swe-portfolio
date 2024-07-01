@@ -17,15 +17,14 @@
     color: var(--color-text);
 }
 
-
 .mobileMenuButton {
-    display: none;
-
-    img {
-        display: none;
-    }
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
+.mobileMenuButton,
+.mobileMenuButton>img,
 .mobileDropdown {
     display: none;
 }
@@ -53,7 +52,7 @@
     }
 
     .title {
-        margin-top: 8px;
+        margin-top: 12px;
     }
 
     .menu {
@@ -68,10 +67,10 @@
 
     .mobileMenuButton {
         display: block;
-        cursor: pointer;
 
         img {
             display: block;
+            cursor: pointer;
         }
     }
 
