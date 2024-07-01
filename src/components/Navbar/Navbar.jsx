@@ -8,7 +8,7 @@ export const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">
-                Portfolio
+                Liam
             </a>
             <div className={styles.menu}>
                 <button className={styles.mobileMenuButton} onClick={() => setMenuOpen(!menuOpen)}>
@@ -23,7 +23,7 @@ export const Navbar = () => {
                     </img>
                 </button>
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
-                        <button className={styles.mobileDropdown} onClick={() => setMenuOpen(false)}/>
+                    <button className={styles.mobileDropdown} onClick={() => setMenuOpen(false)}/>
                     <li>
                         <a href="#about">About</a>
                     </li>
