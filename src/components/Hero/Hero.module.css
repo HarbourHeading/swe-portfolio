@@ -48,12 +48,12 @@
 .sub {
     a:nth-child(2) img { /* Github icon */
         margin-left: 12px;
-        animation-delay: 1.5s;
+        animation-delay: 1.6s;
     }
 
     a:nth-child(3) img { /* Linkedin icon */
         margin-left: 84px;
-        animation-delay: 1.6s;
+        animation-delay: 2.0s;
     }
 
     .subIcons {
@@ -62,7 +62,7 @@
         position: absolute;
         opacity: 0;
         margin-top: -12px;
-        animation: fade-in-left 2s ease forwards;
+        animation: fade-in-left 2s forwards;
     }
 }
 
