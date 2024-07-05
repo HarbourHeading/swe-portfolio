@@ -31,7 +31,7 @@
     font-size: 30px;
     font-family: var(--font-roboto), serif;
     margin-bottom: 52px;
-    margin-right: 30px;
+    margin-right: 5em;
 }
 
 .contactBtn {
@@ -84,7 +84,6 @@
     min-height: 380px;
     z-index: 1;
     border: 3px solid #fff;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     animation: morph 8s ease-in-out infinite;
 }
 
@@ -103,7 +102,7 @@
 .topBlur {
     position: absolute;
     width: 50vw;
-    height: 50vw;
+    height: 45vw;
     min-width: 350px;
     top: -128px;
     left: -10vw;
@@ -115,24 +114,28 @@
 
 .bottomBlur {
     position: absolute;
-    width: 70vw;
-    height: 50vw;
+    width: 50vw;
+    height: 30vw;
     min-width: 350px;
     top: 246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(25, 55, 109, 0.5);
     filter: blur(100px);
     z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 880px) {
     .container {
         flex-direction: column-reverse;
     }
 
     .content {
         align-items: center;
+
+        p {
+            margin-right: unset;
+        }
     }
 
     .subIcons {
