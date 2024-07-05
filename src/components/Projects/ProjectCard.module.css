@@ -7,7 +7,6 @@
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    max-width: 345px;
     z-index: 3;
 }
 
@@ -51,12 +50,17 @@
 
 .card {
     background-color: var(--color-secondary);
-    color: var(--color-text);
     padding: 1rem;
     z-index: 3;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
-    height: 100%;
+    transition: 0.3s;
+    color: #C0C0C0;
 
+    &:hover {
+        transform: translate(0, -0.5rem);
+        color: var(--color-text);
+    }
 }
+
