@@ -1,11 +1,11 @@
 [
   {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
     "title": "Python",
     "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
   },
   {
     "title": "Git",
@@ -20,6 +20,10 @@
     "imageSrc": "skills/ubuntu.png"
   },
   {
+    "title": "Mongodb",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -30,5 +34,9 @@
   {
     "title": "React",
     "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.png"
   }
 ]
