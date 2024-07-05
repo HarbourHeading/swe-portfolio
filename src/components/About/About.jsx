@@ -37,7 +37,7 @@ export const About = () => {
                             <p>
                                 Built responsive, optimized websites using the latest technologies, such as Vite and
                                 react.
-                                Focused on creating user-friendly and visually appealing designs (like this one!).
+                                Focused on creating user-friendly and visually appealing designs (like this one!)
                             </p>
                         </div>
                     </li>
