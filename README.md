@@ -1,7 +1,7 @@
 # Portfolio
 
-Portfolio displaying my frontend skills
-as well as links to my other projects, contact information and resume.
+Website displaying my frontend skills, recent projects, skills and contact information.
+
 
 ## View
 
