@@ -2,16 +2,25 @@ import styles from "./ProjectCard.module.css";
 import {getImageUrl} from "../../utils";
 import PropTypes from "prop-types";
 
-export const ProjectCard = ({ project: {title, imageSrc, description, skills, source}, }) => {
+export const ProjectCard = ({project: {title, imageSrc, description, skills, source},}) => {
 
 
     return (
-        <div className={styles.container}>
-            <img
-                src={getImageUrl(imageSrc)}
-                alt={title}
-                className={styles.image}
-            />
+        <div className={styles.card}>
+            <div>
+                <img
+                    src={getImageUrl("projects/file.png")}
+                    alt="File"
+                    className={styles.image_file}/>
+
+                <a href={source} aria-label="Github link" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src={getImageUrl(imageSrc)}
+                        alt="Github"
+                        className={styles.image_github}
+                    />
+                </a>
+            </div>
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
@@ -23,11 +32,6 @@ export const ProjectCard = ({ project: {title, imageSrc, description, skills, so
                     );
                 })}
             </ul>
-            <div className={styles.links}>
-                <a target="_blank" rel="noopener noreferrer" href={source} className={styles.link}>
-                    Source
-                </a>
-            </div>
         </div>
     );
 };
