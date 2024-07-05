@@ -1,23 +1,30 @@
 [
   {
+    "title": "Savsa",
+    "imageSrc": "contact/github.png",
+    "description": "A Fullstack website where you guess a random steam profile's age. Utilizes Steam's Web API for up-to-date user data.",
+    "skills": ["Fullstack", "Docker", "Vite", "Flask", "REST API", "MongoDB", "Git"],
+    "source": "https://github.com/HarbourHeading/savsa"
+  },
+  {
     "title": "StructViz",
-    "imageSrc": "projects/structViz.jpg",
+    "imageSrc": "contact/github.png",
     "description": "Application to visualize algorithms and data structures, making previously complex concepts more accessible through visual aid.",
     "skills": ["Python", "Tkinter", "Git", "Algorithms"],
     "source": "https://github.com/HarbourHeading/StructViz"
   },
   {
     "title": "CatchIt",
-    "imageSrc": "projects/catchIt.jpg",
-    "description": "Created a modern version of Catch, where players score points by catching falling objects.",
+    "imageSrc": "contact/github.png",
+    "description": "Modern version of the popular game \"Catch\" where the player gets points by catching falling objects.",
     "skills": ["Java", "Maven", "Javax Swing", "Git", "Threads"],
     "source": "https://github.com/HarbourHeading/catch-it"
   },
   {
     "title": "Portfolio",
-    "imageSrc": "projects/portfolio.jpg",
-    "description": "Portfolio showcasing my tech skills, projects, and contact information.",
-    "skills": ["Vite", "React", "JS", "CSS", "HTML", "Docker"],
+    "imageSrc": "contact/github.png",
+    "description": "Website displaying my frontend skills, recent projects, skills and contact information.",
+    "skills": ["Vite", "React", "Docker"],
     "source": "https://github.com/HarbourHeading/swe-portfolio"
   }
 ]
