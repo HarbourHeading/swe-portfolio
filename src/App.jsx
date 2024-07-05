@@ -16,9 +16,9 @@ function App() {
             <div className={styles.AwaitLoading}>
                 <Navbar/>
                 <Hero/>
-                <About/>
-                <Experience/>
                 <Projects/>
+                <Experience/>
+                <About/>
                 <Contact/>
             </div>
         </div>

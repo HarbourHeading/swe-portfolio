@@ -12,7 +12,7 @@ export const Navbar = () => {
             </a>
             <div className={styles.menu}>
                 <button className={styles.mobileMenuButton} onClick={() => setMenuOpen(!menuOpen)}>
-                    <img /* Mobile menu. Not displayed on 830px+ screens. */
+                    <img /* Mobile menu. Not displayed on 880px+ screens. */
                         src={
                             menuOpen
                                 ? getImageUrl("navbar/close.png")
@@ -25,13 +25,13 @@ export const Navbar = () => {
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                     <button className={styles.mobileDropdown} onClick={() => setMenuOpen(false)}/>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
                         <a href="#experience">Experience</a>
                     </li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
