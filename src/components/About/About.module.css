@@ -47,19 +47,19 @@
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
-}
 
-.aboutItem:hover {
-    background-size: 100% 100%;
-}
+    &:hover {
+        background-size: 100% 100%;
+    }
 
-.aboutItem h3 {
-    font-size: 25px;
-    font-weight: 600;
-}
+    h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
 
-.aboutItem p {
-    font-size: 25px;
+    p {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -67,5 +67,9 @@
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .aboutItem > img {
+        display: none;
     }
 }
