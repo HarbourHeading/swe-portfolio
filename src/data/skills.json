@@ -20,6 +20,10 @@
     "imageSrc": "skills/ubuntu.png"
   },
   {
+    "title":"Jenkins",
+    "imageSrc": "skills/jenkins.png"
+  },
+  {
     "title": "Mongodb",
     "imageSrc": "skills/mongodb.png"
   },
