@@ -1,46 +1,46 @@
 [
   {
     "title": "Python",
-    "imageSrc": "skills/python.png"
+    "imageSrc": "skills/python-original.svg"
   },
   {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
+    "title": "Golang",
+    "imageSrc": "skills/go-original.svg"
+  },
+  {
+    "title": "Swift",
+    "imageSrc": "skills/swift-original.svg"
+  },
+  {
+    "title": "Linux CLI",
+    "imageSrc": "skills/linux-original.svg"
   },
   {
     "title": "Git",
-    "imageSrc": "skills/git.png"
+    "imageSrc": "skills/git-original.svg"
   },
   {
     "title": "Docker",
-    "imageSrc": "skills/docker.png"
+    "imageSrc": "skills/docker-original.svg"
   },
   {
-    "title": "Ubuntu CLI",
-    "imageSrc": "skills/ubuntu.png"
-  },
-  {
-    "title":"Jenkins",
-    "imageSrc": "skills/jenkins.png"
-  },
-  {
-    "title": "Mongodb",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "ViteJS",
+    "imageSrc": "skills/vitejs-original.svg"
   },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react-original.svg"
   },
   {
-    "title": "Javascript",
-    "imageSrc": "skills/javascript.png"
+    "title": "Traefik",
+    "imageSrc": "skills/traefikproxy-original.svg"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/amazonwebservices-plain-wordmark.svg"
+  },
+  {
+    "title": "Grafana",
+    "imageSrc": "skills/grafana-original.svg"
   }
 ]
