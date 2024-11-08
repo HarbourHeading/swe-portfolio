@@ -8,20 +8,21 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I&apos;m Liam</h1>
                 <p className={styles.description}>
-                    I am an ICT graduate and Software Engineer with five years of experience in the tech industry,
-                    primarily working with Python.
+                    I am an ICT graduate and currently a fullstack developer on Elpriser Live.
                 </p>
                 <div className={styles.sub}>
                     <a href="mailto:liam.e.swe@gmail.com" className={styles.contactBtn}>
                         Contact Me
                     </a>
-                    <a aria-label="Github link" target="_blank" rel="noopener noreferrer" href="https://www.github.com/HarbourHeading">
+                    <a aria-label="Github link" target="_blank" rel="noopener noreferrer"
+                       href="https://www.github.com/HarbourHeading">
                         <img src={getImageUrl("contact/github.png")}
                              alt="github icon"
                              className={styles.subIcons}
                         />
                     </a>
-                    <a aria-label="Linkedin link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/Liam-e-swe">
+                    <a aria-label="Linkedin link" target="_blank" rel="noopener noreferrer"
+                       href="https://www.linkedin.com/in/Liam-e-swe">
                         <img src={getImageUrl("contact/linkedin.png")}
                              alt="linkedin icon"
                              className={styles.subIcons}

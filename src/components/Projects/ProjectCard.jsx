@@ -2,7 +2,7 @@ import styles from "./ProjectCard.module.css";
 import {getImageUrl} from "../../utils";
 import PropTypes from "prop-types";
 
-export const ProjectCard = ({project: {title, imageSrc, description, skills, source},}) => {
+export const ProjectCard = ({project: {title, imageSrc, imageAlt, description, skills, source},}) => {
 
 
     return (
@@ -16,7 +16,7 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, sou
                 <a href={source} aria-label="Github link" target="_blank" rel="noopener noreferrer">
                     <img
                         src={getImageUrl(imageSrc)}
-                        alt="Github"
+                        alt={imageAlt}
                         className={styles.image_github}
                     />
                 </a>
@@ -40,6 +40,7 @@ ProjectCard.propTypes = {
     project: PropTypes.shape({
         title: PropTypes.string.isRequired,
         imageSrc: PropTypes.string.isRequired,
+        imageAlt: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         skills: PropTypes.arrayOf(PropTypes.string).isRequired,
         source: PropTypes.string.isRequired,
