@@ -26,7 +26,7 @@
   {
     "title": "Portfolio",
     "imageSrc": "contact/github.png",
-    "imageType": "github",
+    "imageAlt": "github",
     "description": "Website displaying my frontend skills, recent projects, skills and contact information.",
     "skills": ["Vite", "React", "Docker"],
     "source": "https://github.com/HarbourHeading/swe-portfolio"
