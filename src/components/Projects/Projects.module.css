@@ -1,0 +1,42 @@
+@import "../../vars.css";
+
+.container {
+    margin-top: 129px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 14px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+
+@media (max-width: 880px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

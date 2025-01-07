@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python-original.svg"
+  },
+  {
+    "title": "Golang",
+    "imageSrc": "skills/go-original.svg"
+  },
+  {
+    "title": "Swift",
+    "imageSrc": "skills/swift-original.svg"
+  },
+  {
+    "title": "Linux CLI",
+    "imageSrc": "skills/linux-original.svg"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git-original.svg"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker-original.svg"
+  },
+  {
+    "title": "ViteJS",
+    "imageSrc": "skills/vitejs-original.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react-original.svg"
+  },
+  {
+    "title": "Traefik",
+    "imageSrc": "skills/traefikproxy-original.svg"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/amazonwebservices-plain-wordmark.svg"
+  },
+  {
+    "title": "Grafana",
+    "imageSrc": "skills/grafana-original.svg"
+  }
+]

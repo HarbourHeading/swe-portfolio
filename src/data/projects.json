@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Elpriser Live",
+    "imageSrc": "projects/www.png",
+    "imageAlt": "website",
+    "description": "Dashboard displaying real-time electricity price data for today and tomorrow in an easy to read format on iphone or ipad.",
+    "skills": ["Golang", "Swift", "Subscriptions", "Real-time data", "Data visualisation"],
+    "source": "https://datacentral.live"
+  },
+  {
+    "title": "Savsa",
+    "imageSrc": "contact/github.png",
+    "imageAlt": "github",
+    "description": "A Fullstack website where you guess a random steam profile's age. Utilizes Steam's Web API for up-to-date user data.",
+    "skills": ["Fullstack", "Docker", "Vite", "Flask", "REST API", "MongoDB", "Git"],
+    "source": "https://github.com/HarbourHeading/savsa"
+  },
+  {
+    "title": "Catch It",
+    "imageSrc": "contact/github.png",
+    "imageAlt": "github",
+    "description": "Modern version of the popular game \"Catch\" where the player gets points by catching falling objects.",
+    "skills": ["Java", "Maven", "Javax Swing", "Git", "Threads"],
+    "source": "https://github.com/HarbourHeading/catch-it"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "contact/github.png",
+    "imageAlt": "github",
+    "description": "Website displaying my frontend skills, recent projects, skills and contact information.",
+    "skills": ["Vite", "React", "Docker"],
+    "source": "https://github.com/HarbourHeading/swe-portfolio"
+  }
+]
