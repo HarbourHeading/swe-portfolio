@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.svg"
+  },
+  {
+    "title": "Golang",
+    "imageSrc": "skills/golang.svg"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.svg"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.svg"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "skills/linux.svg"
+  },
+  {
+    "title":"Grafana",
+    "imageSrc": "skills/grafana.svg"
+  },
+  {
+    "title": "Ansible",
+    "imageSrc": "skills/ansible.svg"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.svg"
+  },
+  {
+    "title": "ViteJS",
+    "imageSrc": "skills/vitejs.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.svg"
+  }
+]
