@@ -1,7 +1,8 @@
 <IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'none'; script-src 'self'; font-src 'self' data:; img-src 'self' data:; style-src 'self'; object-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'self'; require-trusted-types-for 'script'"
   Header always set Strict-Transport-Security "max-age=86400; includeSubDomains"
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-Frame-Options "DENY"
-  Header always set Content-Security-Policy "frame-ancestors 'self'"
   Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "no-referrer"
 </IfModule>
