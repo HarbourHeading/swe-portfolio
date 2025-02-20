@@ -1,9 +1,11 @@
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import {getImageUrl} from "../../utils";
+import {getImageUrl} from "../../utils.js";
 
 export const Experience = () => {
+
+
     return (
         <section className={styles.container} id="experience">
             <h2 className={styles.title}>Experience</h2>
@@ -13,7 +15,11 @@ export const Experience = () => {
                         return (
                             <div key={id} className={styles.skill}>
                                 <div className={styles.skillImageContainer}>
-                                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title}/>
+                                    <img
+                                        src={getImageUrl(skill.imageSrc)}
+                                        alt={skill.title}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <p>{skill.title}</p>
                             </div>

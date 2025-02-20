@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I&apos;m Liam</h1>
                 <p className={styles.description}>
-                    I am an ICT graduate and work as a network technician, specialised in automation and system monitoring.
+                    I am an ICT graduate and work as a network technician, specialised in automation and network monitoring.
                 </p>
                 <div className={styles.sub}>
                     <a href="mailto:liam.e.swe@gmail.com" className={styles.contactBtn}>
@@ -31,7 +31,7 @@ export const Hero = () => {
                 </div>
             </div>
             <img src={getImageUrl("hero/portrait.png")}
-                 alt="Picture of me. Source: https://www.flaticon.com/free-icons/young"
+                 alt="Portrait. Source: https://www.flaticon.com/free-icons/young"
                  className={styles.heroImg}
             />
             <div className={styles.topBlur}/>
