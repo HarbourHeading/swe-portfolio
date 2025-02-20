@@ -80,8 +80,8 @@
 .heroImg {
     width: 50%;
     height: 50%;
-    min-width: 310px;
-    min-height: 380px;
+    min-width: 256px;
+    min-height: 256px;
     z-index: 1;
     animation: morph 8s ease-in-out infinite;
 }
