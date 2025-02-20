@@ -1,8 +1,9 @@
-FROM node:20.14.0-alpine
+FROM node:23.8.0-alpine
 
 WORKDIR /src
 
-COPY package.json .
+COPY package*.json .
+COPY .htaccess .
 
 RUN npm install
 

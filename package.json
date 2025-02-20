@@ -16,7 +16,8 @@
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-loaders": "^3.0.1"
+    "react-loaders": "^3.0.1",
+    "vite-plugin-csp-guard": "^2.0.2"
   },
   "devDependencies": {
     "@types/react": "^19.0.10",
