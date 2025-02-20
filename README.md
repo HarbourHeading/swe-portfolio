@@ -2,12 +2,14 @@
 
 Website displaying my frontend skills, recent projects, skills and contact information.
 
+NOTE: .htaccess is only for apache servers. The node dockerfile does not support it, and therefore does not use it in that environment.
+In production, make sure it is used. You can verify by doing `curl -I https://example.com` from terminal/CMD.
 
 ## View
 
 Go to [this](https://liamcodes.dev) website to view my portfolio.
 
-[Pagespeed insights](https://pagespeed.web.dev/analysis/https-liamcodes-dev/blzqdqte4h?form_factor=desktop) and [HTTP observatory report](https://developer.mozilla.org/en-US/observatory/analyze?host=liamcodes.dev).
+[Pagespeed insights](https://pagespeed.web.dev/analysis/https-liamcodes-dev/n0unr31gkh?form_factor=desktop) and [HTTP observatory report](https://developer.mozilla.org/en-US/observatory/analyze?host=liamcodes.dev). Website is ~3MB in Memory (According to snapshot taken 02/20/25)
 
 ## Getting started
 
